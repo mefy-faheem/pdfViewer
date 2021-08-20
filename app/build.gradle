@@ -45,4 +45,6 @@ dependencies {
 //    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.2")
 
 //    implementation(name: 'pdfviewer', ext: 'aar')
+
+    implementation project(':pdfviewer')
 }

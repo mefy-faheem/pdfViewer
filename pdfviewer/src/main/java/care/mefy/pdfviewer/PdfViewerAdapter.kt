@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import care.mefy.pdfviewer.R
 
 class PdfViewerAdapter(private val pdfPages: ArrayList<Bitmap>) :
     RecyclerView.Adapter<PdfViewerAdapter.ViewHolder>() {
